@@ -89,7 +89,7 @@ Más detalle en [`docs/05_limitaciones_y_pendientes.md`](docs/05_limitaciones_y_
 
 ## Nota sobre las capturas
 
-Algunas capturas de `docs/figuras/` (las de la ventana de video) se tomaron sobre videos de prueba de terceros y muestran sus marcas de agua. Antes de hacer público este repositorio hay que reemplazarlas por capturas propias.
+Las capturas de la ventana de video en `docs/figuras/` (`ventana_video_*` y `ventana_camara_en_vivo_simulada.png`) se tomaron sobre videos de prueba de terceros y algunas muestran sus marcas de agua; se incluyen solo para ilustrar la interfaz, y los derechos de esas imágenes son de sus autores. Se reemplazarán por capturas propias cuando la cámara esté instalada en el sitio.
 
 ## Licencia
 
