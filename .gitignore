@@ -1,0 +1,20 @@
+# Lo que produce cada instalación: no se sube
+registros/
+motiva_config.json
+*.csv
+__pycache__/
+*.pyc
+.impeccable/
+.taste-skill/
+
+# Entornos de Python
+motiva_env/
+motiva-env/
+venv/
+.venv/
+
+# Videos de prueba (son de terceros)
+*.mp4
+*.avi
+*.mov
+*.mkv

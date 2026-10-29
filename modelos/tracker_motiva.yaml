@@ -1,0 +1,12 @@
+# Seguimiento de personas de MOTIVA (ByteTrack), para camara y video.
+# La Raspberry solo alcanza a detectar unas pocas veces por segundo, asi que
+# entre una deteccion y la siguiente la persona se mueve bastante. Respecto al
+# bytetrack.yaml de ultralytics cambian dos valores para no perder el ID:
+#   match_thresh 0.8 -> 0.9 y fuse_score True -> False
+tracker_type: bytetrack # (str) Tracker backend: bytetrack
+track_high_thresh: 0.25 # (float) First-stage match threshold; raise for cleaner tracks, lower to keep more
+track_low_thresh: 0.1 # (float) Second-stage threshold for low-score matches; balances recovery vs drift
+new_track_thresh: 0.25 # (float) Start a new track if no match ≥ this; higher reduces false tracks
+track_buffer: 30 # (int) Frames to keep lost tracks alive; higher handles occlusion, increases ID switches risk
+match_thresh: 0.9 # (float) Association similarity threshold (IoU/cost); tune with detector quality
+fuse_score: False # (bool) Fuse detection score with motion/IoU for matching; stabilizes weak detections

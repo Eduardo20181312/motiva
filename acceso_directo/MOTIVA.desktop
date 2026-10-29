@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=MOTIVA
+Comment=Conteo de personas y aforo
+Exec=/home/motivaa/motiva_env/bin/python /home/motivaa/motiva_app.py
+Path=/home/motivaa
+Icon=/home/motivaa/motiva_icono.png
+Terminal=false
+Categories=Utility;

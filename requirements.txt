@@ -1,0 +1,9 @@
+# Probado en Raspberry Pi 4 (4 GB), Raspberry Pi OS (Debian 13) de 64 bits, Python 3.13.5
+ultralytics==8.4.174      # trae torch y lo demás para YOLO y el seguimiento
+openvino==2026.4.1        # motor de inferencia del modelo
+opencv-python==5.0.0.93
+numpy==2.5.3
+pillow==12.3.0
+customtkinter==6.0.0      # menú, informe y avisos
+lap==0.5.13               # lo usa el seguidor ByteTrack
+gpiod==2.5.0              # LED de alerta (solo en Linux con pines GPIO)
